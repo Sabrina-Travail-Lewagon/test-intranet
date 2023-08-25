@@ -1,0 +1,12 @@
+<div class="container mt-4">
+  <div class="row">
+    <h2>Catégorie</h2>
+    <hr>
+    <p><%= @category.nom %></p>
+    <div>
+      <%= link_to categories_path, class: "btn btn-primary" do %>
+        <i class="fas fa-arrow-left text-white"></i>
+      <% end %>
+    </div>
+  </div>
+</div>
